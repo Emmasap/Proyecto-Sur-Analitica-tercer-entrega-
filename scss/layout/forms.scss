@@ -1,0 +1,38 @@
+/*Pagina Contacto*/
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35;
+    color: white;
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 3px;
+        padding: 3px;
+        font-size: 20px;
+        .datos{
+            margin: 3px;
+            padding: 3px;
+            width: 477px;
+            text-align: center;
+        }
+        .datos1{
+            margin: 3px;
+            padding: 3px;
+            width: 477px;
+            height: 200px;
+            text-align: center;
+        }
+        
+    }
+}
+
+.boton{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}

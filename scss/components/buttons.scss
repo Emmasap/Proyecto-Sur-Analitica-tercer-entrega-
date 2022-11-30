@@ -1,0 +1,31 @@
+.button{
+    width: 200px;
+    height: 40px;
+    font-style: ExtraLight;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 30px;
+    border: 1px;
+    border-color: rgb(86, 228, 140);
+    background-color: rgb(146, 221, 192);
+
+}
+.button1{
+    width: 200px;
+    height: 40px;
+    font-style: ExtraLight;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 30px;
+    border: 2px;
+    border-color: rgb(86, 228, 140);
+    background-color: rgba(146, 221, 192, 0.4);
+    cursor: pointer;
+    transition: box-shadow 0.2s ease-in-out;
+    &:hover{
+        box-shadow: 0 0 40px 40px rgb(86, 228, 140) inset;
+    }
+    &:focus{
+        outline: 0;
+    }
+}

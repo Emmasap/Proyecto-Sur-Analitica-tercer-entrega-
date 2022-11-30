@@ -1,0 +1,55 @@
+@mixin fontStyle($fontSize) {
+    font-size: $fontSize;
+    color: whitesmoke;
+    font-family: 'Oswald', sans-serif;    
+    
+}
+
+body{
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    background-size:cover;
+    background-position:center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: max-content;
+    font-family: 'Oswald', sans-serif;
+}
+.contain{
+    margin: 0;
+    padding: 0;
+}
+.imagen{
+    
+    background-image: url(../assets/img/imagen1.jpg);
+    opacity: 85%;
+    fill: solid  rgba(83, 220, 204, 0.5);
+    height: 700px;
+    margin-bottom: 100px;
+}
+
+.line-section1{
+    height: 1px;
+    background-color: whitesmoke;
+    margin-right: 300px;
+
+}
+.novedades {
+    h2{
+        @include fontStyle(25px);
+        margin-bottom: 2px;
+        margin-top: 50px;
+        
+    }
+    h3{
+        @include fontStyle(24px);
+        margin-top: 72px;
+        
+    }
+    h4{
+        @include fontStyle(21px);
+        font-weight: lighter;
+        margin-bottom: 50px;
+        
+    }
+}

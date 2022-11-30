@@ -1,0 +1,28 @@
+
+.containercard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    .card{
+        background-color: black;
+        border-radius: 1rem;
+        box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+    
+        margin: 1.5rem;
+        overflow: hidden;
+        width: 360px;
+        height: 19rem;
+        flex-direction: row;
+        color: white;
+        
+    }
+    .background1-left-column{
+        background: rgb(252, 248, 248);
+    }
+    .card-title h6{
+        font-family: 'Oswald', sans-serif;
+        font-weight: lighter;
+    }
+}
